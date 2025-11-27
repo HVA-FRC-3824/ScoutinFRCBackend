@@ -1,0 +1,10 @@
+Post - data submission requests:
+submitMatchData(MatchData)
+submitPitScoutingData(MatchData)
+
+Get - data retrieval requests:
+getMatchesForEvent(YearEventCode)
+getTeamData(Number, Year)
+
+Needs:
+Communicate with the MySQL backend(s), may use multiple for redundancy
